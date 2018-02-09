@@ -1,0 +1,25 @@
+body {
+  background-color: #dadada;
+  font-size: 10px;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+
+/* two-column design for tablet */
+@media screen and (min-width: 575px){
+   div {
+     margin: 1%;
+     width: 100%;
+  }
+}
+
+/* four-column design for laptop screens */
+@media screen and (min-width: 991px){
+   div {
+    margin: 1%;
+    width: 100%;
+  }
+}
